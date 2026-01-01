@@ -1,0 +1,19 @@
+package com.ecoscan.eco_backend.entity;
+
+import jakarta.persistence.*;
+
+@Entity
+public class TestEntity {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    public Long getId()
+    {
+        return id;
+    }
+    public void setId()
+    {
+        this.id=id;
+    }
+}
