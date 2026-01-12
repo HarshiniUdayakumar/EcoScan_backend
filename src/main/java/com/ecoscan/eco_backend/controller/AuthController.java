@@ -9,7 +9,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "http://localhost:5173") // frontend URL
+@CrossOrigin(origins = "https://eco-scan-frontend-three.vercel.app/") // frontend URL
 public class AuthController {
 
     private final UserRepository userRepository;

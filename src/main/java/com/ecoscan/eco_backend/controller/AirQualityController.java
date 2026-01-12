@@ -10,7 +10,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/airquality")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://eco-scan-frontend-three.vercel.app/")
 public class AirQualityController {
 
     private final AirQualityService airQualityService;
